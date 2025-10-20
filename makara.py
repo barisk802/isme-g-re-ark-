@@ -12,8 +12,9 @@ if st.button("Şarkıyı Bul"):
         st.info("🎶 Şarkıya yönlendiriliyorsunuz...")
         st.markdown("[🎧 Şarkıya Git](https://www.youtube.com/watch?v=LU5FrAKJmYQ&list=RDLU5FrAKJmYQ&start_radio=1)")
     elif isim == "Metehan":
-        st.warning("arkıya Yönlen.. ahh Travmam tetiklendi ERROORR!! De..De..DEDEEM 😅")
+        st.warning("Şarkıya Yönlen.. ahh Travmam tetiklendi ERROORR!! De..De..DEDEEM 😅")
         st.markdown("[😵‍💫 Şarkıya Git](https://www.youtube.com/watch?v=sr6w-6tBTDk&list=RDsr6w-6tBTDk&start_radio=1)")
     else:
         st.error("İsminize göre şarkı bulunamadı :(")
+
 
