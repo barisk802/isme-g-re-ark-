@@ -5,20 +5,21 @@ st.title("🎵 İsmine Göre Hangi Şarkısın?")
 isim = st.text_input("Lütfen İsminizi Giriniz:")
 
 if st.button("Şarkıyı Bul"):
-    if isim == "Cemre":
+    if isim == "Cemre" or "cemre":
         st.success("SENİ ÇOOOOK SEVİYOORUMM ❤️")
         st.markdown("[🎧 Şarkıya Git](https://www.youtube.com/watch?v=rtOvBOTyX00&list=RDrtOvBOTyX00&start_radio=1)")
-    elif isim == "Mete":
+    elif isim == "Mete" or "mete":
         st.info("🎶 Şarkıya yönlendiriliyorsunuz...")
         st.markdown("[🎧 Şarkıya Git](https://www.youtube.com/watch?v=LU5FrAKJmYQ&list=RDLU5FrAKJmYQ&start_radio=1)")
-    elif isim == "Metehan":
+    elif isim == "Metehan" or "metehan":
         st.warning("Şarkıya Yönlen.. ahh Travmam tetiklendi ERROORR!! De..De..DEDEEM 😅")
         st.markdown("[😵‍💫 Şarkıya Git](https://www.youtube.com/watch?v=sr6w-6tBTDk&list=RDsr6w-6tBTDk&start_radio=1)")
-    elif isim == "Batu":
+    elif isim == "Batu" or "Batuhan" or "batu" or "Batu :
         st.warning("Şarkıya gitmek için linke tıklayınız.")
         st.markdown("[💛💙 Şarkıya Git](https://www.youtube.com/watch?v=NJ2TkBrWA04&list=RDNJ2TkBrWA04&start_radio=1)")
     else:
         st.error("İsminize göre şarkı bulunamadı :(")
+
 
 
 
