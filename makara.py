@@ -16,7 +16,7 @@ sarkilar = {
         "seviyemi": st.success
     },
     "mete": {
-        "mesaj": "🎶 Şarkıya yönlendiriliyorsunuz...",
+        "mesaj": "🎶 Şarkıya gitmek için linke basınız...",
         "link": "https://www.youtube.com/watch?v=LU5FrAKJmYQ&list=RDLU5FrAKJmYQ&start_radio=1",
         "seviyemi": st.info
     },
@@ -45,6 +45,7 @@ if st.button("Şarkıyı Bul"):
         st.markdown(f"[🎧 Şarkıya Git]({data['link']})")
     else:
         st.error("İsminize göre şarkı bulunamadı :(")
+
 
 
 
